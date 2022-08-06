@@ -3,3 +3,22 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* SIDEBAR */
+.sidebar {
+  display: grid;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  width: 13rem;
+  height: 100vh;
+}
+
+.sidebar a{
+  text-decoration: none;
+  color: white;
+}
+
+.sidebar li{
+  list-style: none;
+}
