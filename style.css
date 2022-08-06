@@ -18,10 +18,14 @@
   padding: 1rem 0;
 }
 
+.sidebar-title {
+  display: inline-flex;
+}
+
 .sidebar a{
   text-decoration: none;
   color: white;
-  padding: 1rem;
+  padding: 0 1rem;
 }
 
 .sidebar li{
