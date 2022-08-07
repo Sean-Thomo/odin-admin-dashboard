@@ -121,16 +121,31 @@ a{
 .main-content{
   background-color: #88CCF1;
   grid-area: projects;
+  padding: 1rem;
+}
+
+.projects{
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.project{
+  width: 100%;
 }
 
 /* Announcements */
 .announcements{
   background-color: #2D848A;
   grid-area: announcements;
+  padding: 1rem;
+  text-align: center;
 }
 
 /* Trending */
 .trending{
   background-color: #72DDF7;
   grid-area: trending;
+  padding: 1rem;
+  text-align: center;
 }
