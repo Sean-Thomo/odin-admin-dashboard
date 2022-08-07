@@ -7,19 +7,39 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+/* CONTAINER */
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  height: 100vh;
+  grid-template-areas:
+    "sidebar header header header header header"
+    "sidebar projects projects projects projects announcements"
+    "sidebar projects projects projects projects announcements"
+    "sidebar projects projects projects projects trending"
+    "sidebar projects projects projects projects trending"
+  ;
+}
+
 /* SIDEBAR */
 .sidebar {
   display: grid;
   justify-content: center;
-  background-color: black;
+  background-color: #3587A4;
   color: white;
-  width: 13rem;
   height: 100vh;
   padding: 1rem 0;
+  grid-area: sidebar;
 }
 
-.sidebar-title {
-  display: inline-flex;
+.sidebar-title a{
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.sidebar-title{
+  height: 2rem;
 }
 
 .sidebar a{
@@ -35,4 +55,28 @@
 
 .sidebar .bottom-links{
   margin: 2rem 0;
+}
+
+/* HEADER */
+.header{
+  background-color: #C1DFF0;
+  grid-area: header;
+}
+
+/* MAIN CONTENT */
+.main-content{
+  background-color: #88CCF1;
+  grid-area: projects;
+}
+
+/* Announcements */
+.announcements{
+  background-color: #2D848A;
+  grid-area: announcements;
+}
+
+/* Trending */
+.trending{
+  background-color: #72DDF7;
+  grid-area: trending;
 }
