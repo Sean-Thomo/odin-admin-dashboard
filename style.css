@@ -24,22 +24,22 @@
 
 /* SIDEBAR */
 .sidebar {
-  display: grid;
+  display: inline;
   justify-content: center;
   background-color: #3587A4;
   color: white;
   height: 100vh;
-  padding: 1rem 0;
+  padding: 1rem;
   grid-area: sidebar;
+}
+
+.sidebar-title{
+  margin: 0 0 1rem;
 }
 
 .sidebar-title a{
   font-weight: 900;
   font-size: 1.5rem;
-}
-
-.sidebar-title{
-  height: 2rem;
 }
 
 .sidebar a{
