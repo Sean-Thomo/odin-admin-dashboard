@@ -17,8 +17,7 @@
     "sidebar projects projects projects projects announcements"
     "sidebar projects projects projects projects announcements"
     "sidebar projects projects projects projects trending"
-    "sidebar projects projects projects projects trending"
-  ;
+    "sidebar projects projects projects projects trending";
 }
 
 li{
@@ -110,7 +109,7 @@ a{
 
 .divider{
   margin: auto;
-  width: 100%;
+  width: 90%;
   height: 1px;
   background-color: white;
   display: grid;
@@ -128,7 +127,7 @@ a{
 
 /* MAIN CONTENT */
 .main-content{
-  background-color: #88CCF1;
+  /* background-color: #88CCF1; */
   grid-area: projects;
   padding: 1rem;
 }
@@ -151,9 +150,13 @@ a{
   margin-left: auto;
 }
 
+.section-heading{
+  margin-bottom: 0.7rem;
+}
+
 /* Announcements */
 .announcements{
-  background-color: #2D848A;
+  /* background-color: #2D848A; */
   grid-area: announcements;
   padding: 1rem;
 }
@@ -162,9 +165,13 @@ a{
   margin: 0.5rem;
 }
 
+.announcement h4{
+  margin-bottom: 0.3rem;
+}
+
 /* Trending */
 .trending{
-  background-color: #72DDF7;
+  /* background-color: #72DDF7; */
   grid-area: trending;
   padding: 1rem;
 }
@@ -172,7 +179,7 @@ a{
 /* GLASSMORPHISM */
 .glass {
   background: rgba( 255, 255, 255, 0.25 );
-  box-shadow: 0 8px 32px 0 rgba(44, 52, 163, 0.37);
+  box-shadow: 0 10px 15px 0 rgba(44, 52, 163, 0.37);
   backdrop-filter: blur( 4px );
   -webkit-backdrop-filter: blur( 4px );
   border-radius: 10px;
