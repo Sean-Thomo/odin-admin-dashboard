@@ -176,6 +176,10 @@ a{
   padding: 1rem;
 }
 
+.fa-user-tie{
+  margin: 1rem;
+}
+
 /* GLASSMORPHISM */
 .glass {
   background: rgba( 255, 255, 255, 0.25 );
